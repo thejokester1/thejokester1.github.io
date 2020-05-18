@@ -31,6 +31,7 @@
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "gulp-zip": "^5.0.1",
+    "jquery": "^3.5.1",
     "livereload": "0.9.1"
   }
 }
