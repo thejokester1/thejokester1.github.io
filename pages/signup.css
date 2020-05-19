@@ -26,6 +26,7 @@
     padding-left: 200px;
     text-align: left;
     line-break: anywhere;
+    color: rgb(87, 223, 87)
 }
 
 .emailwrap {
@@ -38,16 +39,20 @@
     border-spacing: -2px;
 }
 
-.input {
+.email {
     width: 350px;
     height: 25px;
     border: 2px solid rgb(37, 219, 219);
 }
 
-.submit {
+.button {
     height: 31px;
     background-color: rgb(37, 219, 219);
     border: 2px rgb(37, 219, 219);
+}
+
+div.mce_inline_error {
+    max-width: 410px;
 }
 
 .caption {
@@ -56,22 +61,19 @@
 
 .info-title {
     position: relative;
-    margin-right: 50%;
 }
 
 .infobox {
     display: inline-block;
     background-color: lightgreen;
-    height: 400px;
-    width: 60%;
+    width: 50%;
     position: relative;
     word-wrap: break-word;
 
 }
 
-.main-info {
-    max-width: 70ch;
-    padding-left: 25%;
+.big-sub {
+    color: rgb(37, 219, 219);
 }
 
 .h2 {
