@@ -26,7 +26,7 @@ function emailSubscribe($form) {
         data: $form.serialize(),
         cache       : false,
         dataType    : 'json',
-        contentType : "application/json; charset=utf-8",
+        contentType: "application/json; charset=utf-8",
         error       : function(err) { alert("An error occured with the server. Please try again later."); },
         success     : function(data) {
             if (data.result != "success") {
